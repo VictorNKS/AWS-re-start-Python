@@ -1,1 +1,1 @@
-Aqui estou iniciando minhja jornada para aprender Python
+Aqui estou iniciando minha jornada para aprender Python
