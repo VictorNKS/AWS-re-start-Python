@@ -15,7 +15,7 @@ def getMessage():
 def getCipherKey():
     shiftAmount = input( "Please enter a key (whole number from 1-25): ")
     return shiftAmount
-
+#Encripta uma mensagem
 def encryptMessage(message, cipherKey, alphabet):
     encryptedMessage = ""
     uppercaseMessage = ""
@@ -28,11 +28,11 @@ def encryptMessage(message, cipherKey, alphabet):
         else:
             encryptedMessage = encryptedMessage + currentCharacter
     return encryptedMessage
-
+#Desencripta uma mensagem
 def decryptMessage(message, cipherKey, alphabet):
     decryptKey = -1 * int(cipherKey)
     return encryptMessage(message, decryptKey, alphabet)
-
+#Executa o comando usando todas as variaveis anteriormente criadas para encriptar e decriptar a mensagem
 def runCaesarCipherProgram():
     myAlphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     print(f'Alphabet: {myAlphabet}')
