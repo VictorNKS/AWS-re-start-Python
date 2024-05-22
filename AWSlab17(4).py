@@ -49,7 +49,7 @@ def runCaesarCipherProgram():
     print(myCipherKey)
     myEncryptedMessage = encryptMessage(myMessage, myCipherKey, myAlphabet2)
     print(f'Encrypted Message: {myEncryptedMessage}')
-    #o bug estava na referencia usada para dar printo no myDecryptedMessage
+    #o bug estava na referencia usada para dar print no myDecryptedMessage
     myDecryptedMessage = decryptMessage(myEncryptedMessage, myCipherKey, myAlphabet2)
     # estava escrito myEncryptedMessage ao inves de myDecryptedMessage
     print(f'Decrypted Message: {myDecryptedMessage}')
